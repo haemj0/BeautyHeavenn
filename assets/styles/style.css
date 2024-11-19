@@ -1,0 +1,431 @@
+@import url("./fonts.css");
+*{
+    font-family: Marmelad;
+}
+body {
+    background-image: url(../img/1.jpg);
+    overflow-x: hidden;
+}
+
+.section-head .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important;
+}
+.section-head:nth-child(1) .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 239, 195) !important;
+}
+.section-head .d-flex:nth-child(1) img{
+    height: 4rem;
+    border: none !important;
+}
+.section-head:nth-child(1) .btn-outline-success {
+    border: none !important;
+}
+.section-head .d-flex p{
+    font-size: 1.2rem;
+}
+.form-control {
+    border-radius: 100px !important;
+}
+.section-head img{
+    height: 3rem;
+    border-color: rgb(59, 59, 59);
+    border: 1px solid ;
+    border-radius: 100px;
+}
+.section-registr .container{
+    width: 30% !important;
+    padding-top: 5rem !important;
+}
+.section-registr h1{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.section-registr .btn-primary{
+    color: black;
+    background-color: rgb(255, 239, 195) !important;
+    border: none !important;
+}
+.card-body img{
+    height: 30px;
+    width: 30px;
+}
+.card-body button{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+}
+.carousel-inner img{
+    height: 23rem;
+}
+.section-carousel{
+    margin-top: 50px;
+}
+.section-card .row{
+    margin-top: 50px;
+}
+.card{
+    border: none !important;
+}
+.ogo{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    text-decoration: none;
+}
+.fotocard{
+    display: grid;
+    height: auto;
+}
+.fotocard img{
+    width: 10rem;
+    height: 10rem;
+}
+.pomogite{
+    display: flex;
+}
+.vau img{
+    width: 40rem;
+}
+.section-card .col-3 img{
+    width: 7rem;
+}
+.section-card .col img{
+    width: 30rem;
+}
+.section-card .col-4 p{
+    width: 30rem;
+}
+.section-card button:nth-child(1){
+    background-color: rgb(238, 138, 99);
+    color: white;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.section-card button:nth-child(2){
+    background-color: rgb(255, 239, 195);
+    height: 50px;
+}
+.ogoo{
+    display: flex;
+    height: auto;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+.section-info .container{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+.section-info button{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 1.3rem;
+}
+.section-boot .container{
+    background-color: rgb(24, 24, 24);
+    height: 100px;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.section-carousel{
+    margin-bottom: 50px;
+}
+.card h5{
+    text-transform: uppercase;
+}
+.card:hover h5{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.section-card button:nth-child(1):hover{
+    background-color: rgb(158, 92, 66);
+}
+.section-card button:nth-child(2):hover{
+    background-color: rgb(202, 190, 159);
+}
+.gray {
+    color: rgb(112, 112, 112);
+}
+.section-info .d-flex img{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+}
+.section-info .d-grid{
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+.section-head .d-flex p{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.section-head .btn-outline-success{
+    color: white;
+}
+.btn-outline-success:hover{
+    background-color: rgb(167, 156, 128) !important;
+    color: rgb(167, 156, 128) !important;
+    border-color: rgb(167, 156, 128) !important;
+    border-radius: 130px;
+}
+.btn-outline-success{
+    border-radius: 130px !important;
+}
+.section-head .d-flex p:hover{
+    color: white;
+    transition: 0.2s;
+}
+.head1 .section-head .navbar{
+    background-color: white !important;
+}
+.head1 input{
+    border-radius: 10px !important;
+}
+.head1 button{
+    border-radius: 10px !important;
+}
+.head1 button:hover{
+    background-color: rgb(202, 190, 159) !important;
+    color: black;
+}
+.section-head input{
+    width: 25rem;
+    height: 3rem;
+}
+.section-head form{
+    align-items: center !important;
+}
+.section-we .container{
+    margin-top: 25px;
+    background-image: url(../img/24.jpg);
+    height: 700px;
+    display: grid;
+    align-content: center;
+}
+.section-we  h1{
+    margin-left: 70px;
+    width: 50rem;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    -webkit-text-stroke: 1.5px rgb(136, 108, 76);
+}
+.section-we h3{
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(136, 108, 76);
+}
+.col-4 .sall{
+    color: rgb(145, 22, 0);
+    text-decoration: underline;
+}
+.forma{
+    width: 40%;
+}
+.section-formsv .container{
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-formsv .container h3, .section-formsv .container h1{
+    text-align: center;
+}
+.section-formsv button{
+    background-color: rgb(255, 239, 195);
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.section-boot a{
+    color: white;
+    text-decoration: none;
+}
+.section-boot a:hover{
+    text-decoration: underline;
+}
+.section-boot .col:nth-child(2 ) p {
+    text-decoration: underline;
+}
+.head1 .section-head button{
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+}
+.section-formsv .forma .form-control{
+    border-radius: 10px !important;
+}
+.carousel-inner img{
+    border-radius: 30px;
+}
+
+
+
+@media (max-width: 1440px){
+    .section-card .col-4 p{
+        width: 20rem;
+    }
+}
+@media (max-width: 1200px){
+    .section-card .col-4 p{
+        width: 20rem;
+    }
+    .section-card .col img{
+        width: 23rem;
+    }
+    .section-card .col-3 img{
+        width: 6rem;
+    }
+    .carousel-inner img{
+        height: 18rem;
+    }
+    .forma{
+        width: 60%;
+    }
+}
+@media (max-width: 990px){
+    .section-card .col-4 p{
+        width: 20rem;
+    }
+    .section-card .col img{
+        width: 20rem;
+    }
+    .section-card .col-3 img{
+        width: 5rem;
+    }
+    .section-card .row:nth-child(1){
+        display: grid;
+    }
+    .col-8 .row{
+        display: flex !important;
+    }
+    .carousel-inner img{
+        height: 14rem;
+    }
+    .section-we  h1{
+        margin-left: 70px;
+        width: 40rem;
+    }
+    .section-we h3{
+        margin-left: 70px;
+        width: 30rem;
+    }
+    .forma{
+        width: 70%;
+    }
+}
+@media (max-width: 768px){
+    .section-card .col-4 p{
+        width: 20rem;
+    }
+    .section-card .col img{
+        width: 15rem;
+    }
+    .section-card .col-3 img{
+        width: 4rem;
+    }
+    .section-card .row:nth-child(1){
+        display: grid;
+    }
+    .section-card .row .col-8 .row{
+        display: grid;
+    }
+    .col-8 .row{
+        display: flex !important;
+    }
+    .carousel-inner img{
+        height: 11rem;
+    }
+    .section-we  h1{
+        margin-left: 70px;
+        width: 30rem;
+    }
+    .section-we h3{
+        margin-left: 70px;
+        width: 20rem;
+    }
+    .forma{
+        width: 80%;
+    }
+}
+@media (max-width: 580px){
+    .section-head input{
+        width: 20rem;
+        height: 3rem;
+    }
+    .carousel-inner img{
+        height: 9rem;
+    }
+    .section-we  h1{
+        margin-left: 70px;
+        width: 20rem;
+        font-size: 4rem;
+    }
+    .section-we h3{
+        margin-left: 70px;
+        width: 20rem;
+    }
+}
+@media (max-width: 480px){
+    .section-head input{
+        width: 15rem;
+        height: 3rem;
+    }
+    .section-card .col img{
+        width: 5rem;
+    }
+    .section-card .col-3 img{
+        width: 4rem;
+    }
+}
+@media (max-width: 433px){
+    .section-card .col img{
+        width: 3rem;
+    }
+    .carousel-inner img{
+        height: 7rem;
+    }
+}
+@media (max-width: 400px){
+    .section-head input{
+        width: 10rem;
+        height: 3rem;
+    }
+    .carousel-inner img{
+        height: 5rem;
+    }
+}
+@media (max-width: 530px){
+    .section-card .col-4 p{
+        width: 20rem;
+    }
+    .section-card .col img{
+        width: 12rem;
+    }
+    .section-card .col-3 img{
+        width: 3rem;
+    }
+    .section-card .row:nth-child(1){
+        display: grid;
+    }
+    .col-8 .row{
+        display: flex !important;
+    }
+}
+@media (max-width: 768px){
+    .section-registr .container{
+        width: 100% !important;
+    }
+}
