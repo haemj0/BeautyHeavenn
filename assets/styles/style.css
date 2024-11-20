@@ -2,6 +2,17 @@
 *{
     font-family: Marmelad;
 }
+.section-registr .container a{
+    text-align: center;
+    color: gray;
+}
+.section-registr .container{
+    display: grid;
+    justify-items: center;
+}
+.section-registr .container button{
+    margin-bottom: 15px;
+}
 body {
     background-image: url(../img/1.jpg);
     overflow-x: hidden;
